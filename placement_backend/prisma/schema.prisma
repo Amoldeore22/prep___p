@@ -1,0 +1,415 @@
+// Prisma Schema for Placement Preparation Platform
+// Dual-compatible with SQLite (dev/embedded) and MySQL (production/enterprise)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DATABASE_URL_UNPOOLED")
+}
+
+model User {
+  id             String    @id @default(cuid())
+  name           String
+  fullName       String?
+  email          String    @unique
+  passwordHash   String
+  role           String    @default("STUDENT") // "STUDENT" | "ADMIN"
+  avatar         String?
+  college        String?
+  branch         String?
+  department     String?
+  academicYear   String?
+  graduationYear Int?
+  cgpa           Float?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  progress       ProblemProgress[]
+  notes          Note[]
+  quizAttempts   DailyQuizAttempt[]
+  interviews     InterviewExperience[]
+  bookmarks      Bookmark[]
+  activityEvents ActivityEvent[]
+  auditLogs      AdminAuditLog[]
+  studentProgress StudentProgress?
+  studentNotes   StudentNote[]
+  quizAttemptRecords QuizAttempt[]
+  passwordResetTokens PasswordResetToken[]
+}
+
+model DSAPattern {
+  id            String    @id @default(cuid())
+  slug          String    @unique
+  name          String
+  rawName       String
+  description   String?
+  icon          String?
+  orderIndex    Int       @default(0)
+  displayOrder  Int       @default(0)
+  isPublished   Boolean   @default(true)
+  isActive      Boolean   @default(true)
+  visualizerKey String?   // Set ONLY when interactive animation is implemented!
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  problems      Problem[]
+}
+
+model Problem {
+  id              String            @id @default(cuid())
+  title           String
+  slug            String            @unique
+  leetcodeUrl     String?
+  externalUrl     String?
+  difficulty      String            @default("Medium") // "Easy" | "Medium" | "Hard"
+  subcategory     String?
+  orderIndex      Int               @default(0)
+  description     String?
+  notes           String?
+  createdBy       String?
+  isPublished     Boolean           @default(true)
+  isArchived      Boolean           @default(false)
+  patternId       String
+  createdAt       DateTime          @default(now())
+  updatedAt       DateTime          @updatedAt
+
+  pattern         DSAPattern        @relation(fields: [patternId], references: [id], onDelete: Cascade)
+  resources       ProblemResource[]
+  progress        ProblemProgress[]
+  userNotes       Note[]
+}
+
+model ProblemResource {
+  id          String    @id @default(cuid())
+  problemId   String
+  title       String
+  url         String
+  type        String    @default("link") // "article" | "video" | "solution"
+  createdAt   DateTime  @default(now())
+
+  problem     Problem   @relation(fields: [problemId], references: [id], onDelete: Cascade)
+}
+
+model ProblemProgress {
+  id            String    @id @default(cuid())
+  userId        String
+  problemId     String
+  status        String    @default("NOT_STARTED") // "NOT_STARTED" | "ATTEMPTED" | "SOLVED"
+  personalNotes String?
+  bookmarked    Boolean   @default(false)
+  solvedAt      DateTime?
+  updatedAt     DateTime  @updatedAt
+
+  user          User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  problem       Problem   @relation(fields: [problemId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, problemId])
+}
+
+model Note {
+  id          String    @id @default(cuid())
+  userId      String
+  title       String
+  content     String
+  category    String    @default("DSA") // "DSA" | "Aptitude" | "Interview" | "General"
+  tags        String?   // Comma-separated tags
+  isPinned    Boolean   @default(false)
+  problemId   String?
+  companyId   String?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  problem     Problem?  @relation(fields: [problemId], references: [id], onDelete: SetNull)
+  company     Company?  @relation(fields: [companyId], references: [id], onDelete: SetNull)
+}
+
+model AptitudeCategory {
+  id          String             @id @default(cuid())
+  slug        String             @unique
+  name        String
+  description String?
+  icon        String?
+
+  questions   AptitudeQuestion[]
+}
+
+model AptitudeQuestion {
+  id            String             @id @default(cuid())
+  text          String
+  optionA       String
+  optionB       String
+  optionC       String
+  optionD       String
+  correctAnswer String             // "A" | "B" | "C" | "D" - NEVER sent to frontend before submission!
+  explanation   String
+  categorySlug  String
+  difficulty    String             @default("Medium") // "Easy" | "Medium" | "Hard"
+  imageUrl      String?
+  isPublished   Boolean            @default(true)
+  createdAt     DateTime           @default(now())
+  updatedAt     DateTime           @updatedAt
+
+  category      AptitudeCategory   @relation(fields: [categorySlug], references: [slug])
+  quizQuestions DailyQuizQuestion[]
+  answers       DailyQuizAnswer[]
+}
+
+model DailyQuiz {
+  id             String              @id @default(cuid())
+  quizDate       String              @unique // "YYYY-MM-DD" in configured timezone
+  title          String
+  totalQuestions Int                 @default(10)
+  isLocked       Boolean             @default(false)
+  createdAt      DateTime            @default(now())
+
+  questions      DailyQuizQuestion[]
+  attempts       DailyQuizAttempt[]
+}
+
+model DailyQuizQuestion {
+  id          String           @id @default(cuid())
+  dailyQuizId String
+  questionId  String
+  orderIndex  Int              @default(0)
+
+  dailyQuiz   DailyQuiz        @relation(fields: [dailyQuizId], references: [id], onDelete: Cascade)
+  question    AptitudeQuestion @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([dailyQuizId, questionId])
+}
+
+model DailyQuizAttempt {
+  id               String            @id @default(cuid())
+  dailyQuizId      String
+  userId           String
+  score            Int               @default(0)
+  totalQuestions   Int               @default(10)
+  accuracy         Float             @default(0.0)
+  timeTakenSeconds Int               @default(0)
+  isOfficial       Boolean           @default(true) // Enforces 1 official score per day
+  submittedAt      DateTime          @default(now())
+
+  dailyQuiz        DailyQuiz         @relation(fields: [dailyQuizId], references: [id], onDelete: Cascade)
+  user             User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+  answers          DailyQuizAnswer[]
+
+  @@unique([dailyQuizId, userId, isOfficial])
+}
+
+model DailyQuizAnswer {
+  id             String           @id @default(cuid())
+  attemptId      String
+  questionId     String
+  selectedOption String?          // "A" | "B" | "C" | "D" or null if skipped
+  isCorrect      Boolean          @default(false)
+
+  attempt        DailyQuizAttempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  question       AptitudeQuestion @relation(fields: [questionId], references: [id], onDelete: Cascade)
+}
+
+model InterviewVideo {
+  id           String    @id @default(cuid())
+  title        String
+  description  String?
+  companyName  String
+  jobRole      String
+  round        String    // "OA", "Technical 1", "Technical 2", "HR", "System Design"
+  topic        String?
+  videoUrl     String
+  videoType    String    @default("EXTERNAL_URL") // "EXTERNAL_URL" | "UPLOADED_FILE"
+  thumbnailUrl String?
+  isPublished  Boolean   @default(true)
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+}
+
+model InterviewExperience {
+  id                  String    @id @default(cuid())
+  userId              String
+  companyName         String
+  jobRole             String
+  roundsSummary       String
+  questionsAsked      String
+  preparationStrategy String?
+  difficulty          String    @default("Medium") // "Easy" | "Medium" | "Hard"
+  status              String    @default("PENDING") // "PENDING" | "APPROVED" | "REJECTED" | "NEEDS_REVISION"
+  adminFeedback       String?
+  publishedAt         DateTime?
+  createdAt           DateTime  @default(now())
+  updatedAt           DateTime  @updatedAt
+
+  user                User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Company {
+  id                  String               @id @default(cuid())
+  name                String               @unique
+  slug                String               @unique
+  logoUrl             String?
+  website             String?
+  description         String?
+  eligibilityCriteria String?
+  minimumCGPA         Float?
+  requiredSkills      String?
+  selectionProcess    String?
+  interviewExperience String?
+  isPublished         Boolean              @default(true)
+  createdAt           DateTime             @default(now())
+  updatedAt           DateTime             @default(now()) @updatedAt
+
+  requirements        CompanyRequirement[]
+  notes               Note[]
+  interviewResources  InterviewResource[]
+}
+
+model CompanyRequirement {
+  id                  String    @id @default(cuid())
+  companyId           String
+  companyName         String
+  jobTitle            String
+  jobDescription      String
+  eligibleDegree      String    // "B.Tech", "MCA", "M.Tech", "All"
+  eligibleBranch      String    // "CSE/IT", "All Branches", "Circuital"
+  minCgpa             Float?
+  backlogRestrictions String?   // "No active backlogs", "Allowed up to 1"
+  requiredSkills      String    // "DSA, System Design, SQL, React"
+  graduationYear      Int       // e.g. 2026, 2027
+  location            String    // "Bangalore", "Hyderabad", "Remote", "Hybrid"
+  deadline            DateTime?
+  selectionRounds     String?   // "OA -> Technical 1 -> Technical 2 -> HR"
+  salaryPackage       String?   // "12-18 LPA", only when verified
+  officialApplyUrl    String
+  sourceUrl           String?
+  lastVerifiedDate    DateTime  @default(now())
+  isPublished         Boolean   @default(true)
+  createdAt           DateTime  @default(now())
+  updatedAt           DateTime  @updatedAt
+
+  company             Company   @relation(fields: [companyId], references: [id], onDelete: Cascade)
+}
+
+model Bookmark {
+  id        String   @id @default(cuid())
+  userId    String
+  itemType  String   // "PROBLEM" | "COMPANY" | "VIDEO" | "NOTE"
+  itemId    String
+  createdAt DateTime @default(now())
+
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, itemType, itemId])
+}
+
+model ActivityEvent {
+  id        String   @id @default(cuid())
+  userId    String
+  type      String   // "DSA_SOLVE" | "DSA_ATTEMPT" | "QUIZ_SUBMIT" | "NOTE_CREATE"
+  metadata  String?  // JSON string
+  createdAt DateTime @default(now())
+
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model AdminAuditLog {
+  id             String   @id @default(cuid())
+  adminId        String
+  action         String   // "CREATE_PATTERN", "IMPORT_DSA", "PUBLISH_COMPANY", "APPROVE_INTERVIEW", etc.
+  targetResource String   // "DSA", "COMPANY", "QUIZ", "USER"
+  targetId       String?
+  details        String?  // JSON string
+  ipAddress      String?
+  createdAt      DateTime @default(now())
+
+  admin          User     @relation(fields: [adminId], references: [id], onDelete: Cascade)
+}
+
+
+model StudentProgress {
+  id               String    @id @default(cuid())
+  studentId        String    @unique
+  questionsSolved  Int       @default(0)
+  aptitudeAttempts Int       @default(0)
+  correctAnswers   Int       @default(0)
+  studyTime        Int       @default(0)
+  currentStreak    Int       @default(0)
+  updatedAt        DateTime  @updatedAt
+
+  student          User      @relation(fields: [studentId], references: [id], onDelete: Cascade)
+}
+
+model InterviewResource {
+  id           String    @id @default(cuid())
+  title        String
+  description  String?
+  companyId    String?
+  resourceType String    @default("VIDEO") // "VIDEO" | "EXPERIENCE" | "NOTES" | "DOCUMENT"
+  videoUrl     String?
+  notesContent String?
+  documentUrl  String?
+  isPublished  Boolean   @default(true)
+  createdBy    String?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  company      Company?  @relation(fields: [companyId], references: [id], onDelete: SetNull)
+}
+
+model StudentNote {
+  id        String   @id @default(cuid())
+  studentId String
+  title     String
+  content   String
+  category  String   @default("DSA")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  student   User     @relation(fields: [studentId], references: [id], onDelete: Cascade)
+}
+
+model QuizAttempt {
+  id             String   @id @default(cuid())
+  studentId      String
+  quizDate       String
+  score          Int
+  totalQuestions Int      @default(10)
+  answers        String   // JSON string of answers
+  completedAt    DateTime @default(now())
+
+  student        User     @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@unique([studentId, quizDate])
+}
+
+model PasswordResetToken {
+  id        String   @id @default(cuid())
+  userId    String
+  email     String
+  token     String   @unique
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+enum Subject {
+  CPP
+  OOPS
+  DBMS
+  SQL
+}
+
+model PrepHubVideo {
+  id        String   @id @default(cuid())
+  subject   Subject
+  topicName String
+  videoUrl  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([subject])
+}

@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #121316;
+    --foreground: #ffffff;
+    --card: #1A1B1E;
+    --card-foreground: #ffffff;
+    --border: #2C2E33;
+    --input: #202226;
+    --ring: #FF5722;
+    --primary: #FF5722;
+    --primary-foreground: #ffffff;
+    --secondary: #202226;
+    --secondary-foreground: #A1A1AA;
+    --muted: #202226;
+    --muted-foreground: #9CA3AF;
+    --accent: #2C2E33;
+    --accent-foreground: #FF5722;
+    --destructive: #ef4444;
+    --destructive-foreground: #ffffff;
+    --radius: 0.75rem;
+  }
+
+  .light {
+    --background: #f8fafc;
+    --foreground: #111215;
+    --card: #ffffff;
+    --card-foreground: #111215;
+    --border: #e2e8f0;
+    --input: #e2e8f0;
+    --ring: #FF5722;
+    --primary: #FF5722;
+    --primary-foreground: #ffffff;
+    --secondary: #f1f5f9;
+    --secondary-foreground: #4b5563;
+    --muted: #f1f5f9;
+    --muted-foreground: #6b7280;
+    --accent: #fff3eb;
+    --accent-foreground: #F15A24;
+    --destructive: #ef4444;
+    --destructive-foreground: #ffffff;
+    --radius: 0.75rem;
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #141518;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2C2E33;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3F4248;
+}
+
+/* Glassmorphism helpers */
+.glass-panel {
+  background: rgba(26, 27, 30, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid #2C2E33;
+}
+
+.glass-card {
+  background: rgba(26, 27, 30, 0.75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid #2C2E33;
+}
+
+.glass-input {
+  background: #202226;
+  border: 1px solid #2C2E33;
+}
+
+.glass-input:focus {
+  border-color: #FF5722;
+  box-shadow: 0 0 0 2px rgba(255, 87, 34, 0.25);
+}
+
+/* Gradient text utility */
+.text-gradient {
+  background: linear-gradient(135deg, #FF5722 0%, #F15A24 50%, #ea580c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-amber {
+  background: linear-gradient(135deg, #FF5722 0%, #F15A24 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-emerald {
+  background: linear-gradient(135deg, #34d399 0%, #059669 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

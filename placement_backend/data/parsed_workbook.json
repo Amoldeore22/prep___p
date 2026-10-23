@@ -1,0 +1,1855 @@
+[
+  {
+    "id": 1,
+    "raw_name": "1. Pattern: Two Pointers",
+    "name": "Two Pointers",
+    "row": 3,
+    "sub_categories": [],
+    "questions": [
+      {
+        "row": 4,
+        "title": "Pair with Target Sum (easy)",
+        "subcategory": null,
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 5,
+        "title": "Rearrange 0 and 1",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/segregate-0s-and-1s5106/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 6,
+        "title": "Remove Duplicates (easy)",
+        "subcategory": null,
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/",
+        "additional_urls": [
+          "https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/",
+          "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/"
+        ],
+        "notes": null
+      },
+      {
+        "row": 7,
+        "title": "Squaring a Sorted Array (easy)",
+        "subcategory": null,
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/squares-of-a-sorted-array/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 8,
+        "title": "Triplet Sum to Zero (medium)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/3sum/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 9,
+        "title": "Triplet Sum Close to Target (medium)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/3sum-closest/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 10,
+        "title": "Triplets with Smaller Sum (medium)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/count-triplets-with-sum-smaller-than-x5549/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 11,
+        "title": "Subarrays with Product Less than a Target (medium)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/subarray-product-less-than-k/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 12,
+        "title": "Dutch National Flag Problem (medium)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/sort-colors/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 13,
+        "title": "Problem Challenge 1: Quadruple Sum to Target (medium)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/4sum/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 14,
+        "title": "Problem Challenge 2: Comparing Strings containing Backspaces (medium)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/backspace-string-compare/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 15,
+        "title": "Problem Challenge 3: Minimum Window Sort (medium)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/shortest-unsorted-continuous-subarray/",
+        "additional_urls": [
+          "https://www.ideserve.co.in/learn/minimum-length-subarray-sorting-which-results-in-sorted-array"
+        ],
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "raw_name": "2. Pattern: Fast & Slow pointers",
+    "name": "Fast & Slow pointers",
+    "row": 16,
+    "sub_categories": [],
+    "questions": [
+      {
+        "row": 17,
+        "title": "LinkedList Cycle (easy)",
+        "subcategory": null,
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/linked-list-cycle/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 18,
+        "title": "Start of LinkedList Cycle (medium)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/linked-list-cycle-ii/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 19,
+        "title": "Happy Number (medium)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/happy-number/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 20,
+        "title": "FIND DUPLICATE NUMBER",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/find-the-duplicate-number/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 21,
+        "title": "Middle of the LinkedList (easy)",
+        "subcategory": null,
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/middle-of-the-linked-list/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 22,
+        "title": "Problem Challenge 1: Palindrome LinkedList (medium)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/palindrome-linked-list/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 23,
+        "title": "Problem Challenge 2: Rearrange a LinkedList (medium)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/reorder-list/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 24,
+        "title": "Problem Challenge 3: Cycle in a Circular Array (hard)",
+        "subcategory": null,
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/circular-array-loop/",
+        "additional_urls": [],
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "raw_name": "3. Pattern: Sliding Window",
+    "name": "Sliding Window",
+    "row": 25,
+    "sub_categories": [],
+    "questions": [
+      {
+        "row": 26,
+        "title": "Maximum Sum Subarray of Size K (easy)",
+        "subcategory": null,
+        "difficulty": "Easy",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 27,
+        "title": "Smallest Subarray with a given sum (easy)",
+        "subcategory": null,
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/minimum-size-subarray-sum/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 28,
+        "title": "Longest Substring with K Distinct Characters (medium)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 29,
+        "title": "Fruits into Baskets (medium)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/fruit-into-baskets/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 30,
+        "title": "No-repeat Substring (hard)",
+        "subcategory": null,
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 31,
+        "title": "Longest Substring with Same Letters after Replacement (hard)",
+        "subcategory": null,
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 32,
+        "title": "Longest Subarray with Ones after Replacement (hard)",
+        "subcategory": null,
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/max-consecutive-ones-iii/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 33,
+        "title": "Minimum size subarray SUM",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/minimum-size-subarray-sum/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 34,
+        "title": "MInimum Size Substring (HARD)",
+        "subcategory": null,
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/minimum-window-substring/description/?envType=study-plan-v2&envId=top-interview-150",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 35,
+        "title": "Problem Challenge 1: Permutation in a String (hard)",
+        "subcategory": null,
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/permutation-in-string/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 36,
+        "title": "Problem Challenge 2: String Anagrams (hard)",
+        "subcategory": null,
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 37,
+        "title": "Problem Challenge 4: Words Concatenation (hard)",
+        "subcategory": null,
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/substring-with-concatenation-of-all-words/",
+        "additional_urls": [],
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "raw_name": "Pattern: Kadane pattern",
+    "name": "Kadane pattern",
+    "row": 38,
+    "sub_categories": [],
+    "questions": [
+      {
+        "row": 39,
+        "title": "Maximum subarray sum",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/maximum-subarray/?utm_source=chatgpt.com",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 40,
+        "title": "Minimum Subarray Sum",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/smallest-sum-contiguous-subarray/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 41,
+        "title": "Maximum product subarray",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/maximum-product-subarray/?utm_source=chatgpt.com",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 42,
+        "title": "Maximum subarray sum with one deletion",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 43,
+        "title": "Maximum absolute sum of any subarray",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 44,
+        "title": "Maximum sum in circular array variant",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/maximum-sum-circular-subarray/?utm_source=chatgpt.com",
+        "additional_urls": [],
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "raw_name": "PATTERN: PREFIX SUM",
+    "name": "PREFIX SUM",
+    "row": 45,
+    "sub_categories": [],
+    "questions": [
+      {
+        "row": 46,
+        "title": "Subarray Sum Equals K (EASY)",
+        "subcategory": null,
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/subarray-sum-equals-k/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 47,
+        "title": "Find Pivot Index (EASY)",
+        "subcategory": null,
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/find-pivot-index/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 48,
+        "title": "Subarray Sums Divisible By K (Med)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/subarray-sums-divisible-by-k/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 49,
+        "title": "Contiguous array (MED)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/contiguous-array/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 50,
+        "title": "Problem challenge: Shortest Subarray With Sum at Least K (HARD)",
+        "subcategory": null,
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 51,
+        "title": "Problem challenge: Count Range Sum (hard)",
+        "subcategory": null,
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/count-of-range-sum/description/",
+        "additional_urls": [],
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "raw_name": "4. Pattern: Merge Intervals",
+    "name": "Merge Intervals",
+    "row": 52,
+    "sub_categories": [],
+    "questions": [
+      {
+        "row": 53,
+        "title": "Merge Intervals (medium)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/merge-intervals/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 54,
+        "title": "Insert Interval (medium)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/insert-interval/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 55,
+        "title": "Intervals Intersection (medium)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/interval-list-intersections/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 56,
+        "title": "Overlapping Intervals",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/check-if-any-two-intervals-overlap-among-a-given-set-of-intervals/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 57,
+        "title": "Problem Challenge 1: Minimum Meeting Rooms (hard)",
+        "subcategory": null,
+        "difficulty": "Hard",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/attend-all-meetings-ii/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 58,
+        "title": "Problem Challenge 2: Maximum CPU Load (hard)",
+        "subcategory": null,
+        "difficulty": "Hard",
+        "leetcode_url": "https://www.geeksforgeeks.org/maximum-cpu-load-from-the-given-list-of-jobs/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 59,
+        "title": "Problem Challenge 3: Employee Free Time (hard)",
+        "subcategory": null,
+        "difficulty": "Hard",
+        "leetcode_url": "https://www.codertrain.co/employee-free-time",
+        "additional_urls": [],
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "raw_name": "6. Pattern: In-place Reversal of a LinkedList",
+    "name": "In-place Reversal of a LinkedList",
+    "row": 60,
+    "sub_categories": [],
+    "questions": [
+      {
+        "row": 61,
+        "title": "Reverse a LinkedList (easy)",
+        "subcategory": null,
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/reverse-linked-list/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 62,
+        "title": "Reverse a Sub-list (medium)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/reverse-linked-list-ii/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 63,
+        "title": "Reverse List in Pairs (Medium)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/swap-nodes-in-pairs/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 64,
+        "title": "Reverse every K-element Sub-list (HARD)",
+        "subcategory": null,
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 65,
+        "title": "Problem Challenge 1: Reverse nodes in EVEN Length Groups (HARD)",
+        "subcategory": null,
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/reverse-nodes-in-even-length-groups/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 66,
+        "title": "Problem Challenge 2: Rotate a LinkedList (medium)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/rotate-list/",
+        "additional_urls": [],
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "raw_name": "7. Pattern: Stack",
+    "name": "Stack",
+    "row": 67,
+    "sub_categories": [],
+    "questions": [
+      {
+        "row": 68,
+        "title": "remove adjacent duplicates",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 69,
+        "title": "Balanced Parentheses",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/valid-parentheses/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 70,
+        "title": "Reverse a String",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": null,
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 71,
+        "title": "Next Greater Element (easy)",
+        "subcategory": null,
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/next-greater-element-ii/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 72,
+        "title": "Daily Temperatures (easy)",
+        "subcategory": null,
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/daily-temperatures/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 73,
+        "title": "Remove Nodes From Linked List (easy)",
+        "subcategory": null,
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/remove-nodes-from-linked-list/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 74,
+        "title": "Remove All Adjacent Duplicates in String II (medium)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 75,
+        "title": "Simplify Path (Problem Challenge)",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/simplify-path/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 76,
+        "title": "Remove K Digits (hard) Problem challenge",
+        "subcategory": null,
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/remove-k-digits/",
+        "additional_urls": [],
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "raw_name": "9. Pattern: Hash Maps",
+    "name": "Hash Maps",
+    "row": 77,
+    "sub_categories": [],
+    "questions": [
+      {
+        "row": 78,
+        "title": "First Non-repeating Character (easy)",
+        "subcategory": null,
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/first-unique-character-in-a-string/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 79,
+        "title": "Maximum Number of Balloons (easy)",
+        "subcategory": null,
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/maximum-number-of-balloons/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 80,
+        "title": "Longest Palindrome(easy)",
+        "subcategory": null,
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/longest-palindrome/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 81,
+        "title": "Ransom Note (easy)",
+        "subcategory": null,
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/ransom-note/",
+        "additional_urls": [],
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "raw_name": "10. Pattern : Binary Search",
+    "name": "Binary Search",
+    "row": 82,
+    "sub_categories": [],
+    "questions": [
+      {
+        "row": 83,
+        "title": "Binary search basic",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/binary-search/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 84,
+        "title": "Upper Bound/ Ceiling",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 85,
+        "title": "First and Last position",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 86,
+        "title": "Count number of occurences",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/number-of-occurrence2259/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 87,
+        "title": "Search in infinite Sorted array",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 88,
+        "title": "Peak index in Mountain",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/peak-index-in-a-mountain-array/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 89,
+        "title": "Find peak in mountain range",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/find-peak-element/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 90,
+        "title": "Find minimum in rotated sorted array",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 91,
+        "title": "Find number of rotations to sorted array",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/rotation4723/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 92,
+        "title": "Search in rotated sorted array",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 93,
+        "title": "KOKO eating BANANAS",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/koko-eating-bananas/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 94,
+        "title": "Min num of days to make m bouquets",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 95,
+        "title": "Aggresive cows",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/aggressive-cows/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 96,
+        "title": "H index 2",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/h-index-ii/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 97,
+        "title": "Max candies to k children",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/maximum-candies-allocated-to-k-children/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 98,
+        "title": "Capacity to ship packages in d days",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 99,
+        "title": "Book Allocation Problem",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 100,
+        "title": "Split largest arrray",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/split-array-largest-sum/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 101,
+        "title": "Search 2 D matrix",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/search-a-2d-matrix/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 102,
+        "title": "Search 2D matrix (Hard)",
+        "subcategory": null,
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/search-a-2d-matrix-ii/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 103,
+        "title": "kth smallest in sorted matrix",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 104,
+        "title": "kth smallest in multiplication matrix",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 105,
+        "title": "median of 2 sorted arrays",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+        "additional_urls": [],
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "raw_name": "HEAP PATTERN",
+    "name": "HEAP PATTERN",
+    "row": 106,
+    "sub_categories": [],
+    "questions": [
+      {
+        "row": 107,
+        "title": "kth smallest",
+        "subcategory": "Kth",
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/kth-smallest-element5635/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 108,
+        "title": "kth largest",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/kth-largest-element-in-an-array/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 109,
+        "title": "TOP K frequent Elements",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/top-k-frequent-elements/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 110,
+        "title": "Top K frequent Words",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/top-k-frequent-words/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 111,
+        "title": "K closest points to origin",
+        "subcategory": "K closest",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/k-closest-points-to-origin/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 112,
+        "title": "Find K closest elements",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/find-k-closest-elements/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 113,
+        "title": "Kth weakest row in Matrix",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 114,
+        "title": "Merge K Sorted Arrays",
+        "subcategory": "heap as pointer",
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/merge-k-sorted-arrays/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 115,
+        "title": "Kth Smallest in Sorted Matrix",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 116,
+        "title": "LAST STONE WEIGHT",
+        "subcategory": "GREEDY+heap",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/last-stone-weight/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 117,
+        "title": "CPU Task Scheduler",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/task-scheduler/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 118,
+        "title": "Reorganize String",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/reorganize-string/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 119,
+        "title": "Min number of refueling stops",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/minimum-number-of-refueling-stops/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 120,
+        "title": "IPO",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/ipo/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 121,
+        "title": "Course Scheduler 3",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/course-schedule-iii/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 122,
+        "title": "Find median in data stream",
+        "subcategory": "2 heaps",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 123,
+        "title": "Sliding Window Median (hard)",
+        "subcategory": null,
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/sliding-window-median/description/",
+        "additional_urls": [],
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "raw_name": "Recursion and Backtracking Pattern",
+    "name": "Recursion and Backtracking Pattern",
+    "row": 124,
+    "sub_categories": [],
+    "questions": [
+      {
+        "row": 125,
+        "title": "Fibonnaci",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/fibonacci-number/description/",
+        "additional_urls": [
+          "https://www.youtube.com/watch?v=j4wjZqzhMqc&t"
+        ],
+        "notes": null
+      },
+      {
+        "row": 126,
+        "title": "Check if string is Pallindrome",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/palindrome-string0817/1",
+        "additional_urls": [
+          "https://www.youtube.com/watch?v=j4wjZqzhMqc&t"
+        ],
+        "notes": null
+      },
+      {
+        "row": 127,
+        "title": "Check if Array is Sorted",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1",
+        "additional_urls": [
+          "https://www.youtube.com/watch?v=-gC-QEdpvO4"
+        ],
+        "notes": null
+      },
+      {
+        "row": 128,
+        "title": "Sum of digits of a number",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/sum-of-digits1742/1",
+        "additional_urls": [
+          "https://www.youtube.com/watch?v=-gC-QEdpvO4"
+        ],
+        "notes": null
+      },
+      {
+        "row": 129,
+        "title": "Remove occurences of a character in string",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/remove-all-occurrences-of-a-character-in-a-string/1",
+        "additional_urls": [
+          "https://www.youtube.com/watch?v=-gC-QEdpvO4"
+        ],
+        "notes": null
+      },
+      {
+        "row": 130,
+        "title": "Generate parenthesis",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/generate-parentheses/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 131,
+        "title": "Letter Combinations of phone number",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/",
+        "additional_urls": [
+          "https://www.youtube.com/watch?v=IKfIT6uFOcs"
+        ],
+        "notes": null
+      },
+      {
+        "row": 132,
+        "title": "Permutations",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/permutations/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 133,
+        "title": "Combination Sum",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/combination-sum/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 134,
+        "title": "Pallindrome partition",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/palindrome-partitioning/description/",
+        "additional_urls": [],
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "raw_name": "Tree Pattern",
+    "name": "Tree Pattern",
+    "row": 135,
+    "sub_categories": [],
+    "questions": [
+      {
+        "row": 136,
+        "title": "Inorder",
+        "subcategory": "Traversal",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/binary-tree-inorder-traversal/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 137,
+        "title": "Preorder",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/binary-tree-preorder-traversal/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 138,
+        "title": "Postorder",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/binary-tree-postorder-traversal/description/",
+        "additional_urls": [],
+        "notes": "Homework"
+      },
+      {
+        "row": 139,
+        "title": "Level Order",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/binary-tree-level-order-traversal/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 140,
+        "title": "ZigZag Order",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 141,
+        "title": "Level Order II",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/",
+        "additional_urls": [],
+        "notes": "Homework"
+      },
+      {
+        "row": 142,
+        "title": "Invert Tree",
+        "subcategory": "Mirror and Symmetry",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/invert-binary-tree/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 143,
+        "title": "Symmetric Tree",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/symmetric-tree/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 144,
+        "title": "Same Tree",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/same-tree/description/",
+        "additional_urls": [],
+        "notes": "Homework"
+      },
+      {
+        "row": 145,
+        "title": "Subtree of another TREE",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/subtree-of-another-tree/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 146,
+        "title": "Flip Equivalent Tree",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/flip-equivalent-binary-trees/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 147,
+        "title": "LCA of Binary TREE",
+        "subcategory": "Search",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 148,
+        "title": "Binary Search Tree",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/search-in-a-binary-search-tree/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 149,
+        "title": "LCA of BST",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 150,
+        "title": "LCA of Deepest Leaves",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 151,
+        "title": "Two Sum IV",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 152,
+        "title": "Kth smallest element in BST",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 153,
+        "title": "Minimum Depth of Binary Tree",
+        "subcategory": "Validation",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/minimum-depth-of-binary-tree/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 154,
+        "title": "Maximum Depth of Binary Tree",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 155,
+        "title": "Balanced Binary Tree",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/balanced-binary-tree/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 156,
+        "title": "Diameter of Binary Tree",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/diameter-of-binary-tree/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 157,
+        "title": "Check Completeness of Binary Tree",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/check-completeness-of-a-binary-tree/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 158,
+        "title": "Validate BST",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/validate-binary-search-tree/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 159,
+        "title": "Recover BST",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/recover-binary-search-tree/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 160,
+        "title": "Path Sum",
+        "subcategory": "Path SUM",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/path-sum/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 161,
+        "title": "Path Sum II",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/path-sum-ii/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 162,
+        "title": "Sum of Root to Leaf",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/sum-root-to-leaf-numbers/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 163,
+        "title": "Maximum Path Sum",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 164,
+        "title": "Contruct tree from preorder and inorder",
+        "subcategory": "Construction",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 165,
+        "title": "Contruct tree from postorder and inorder",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 166,
+        "title": "Sorted Array to BST",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/",
+        "additional_urls": [],
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "raw_name": "GRAPHS",
+    "name": "GRAPHS",
+    "row": 167,
+    "sub_categories": [],
+    "questions": [
+      {
+        "row": 168,
+        "title": "Construct Adjancency List from EDGES+Nodes",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/print-adjacency-list-1587115620/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 169,
+        "title": "Graph DFS",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 170,
+        "title": "GRAPH BFS",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 171,
+        "title": "Number of Islands",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/number-of-islands/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 172,
+        "title": "Number of Provinces",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/number-of-provinces/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 173,
+        "title": "Rotten Oranges",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/rotting-oranges/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 174,
+        "title": "Cycle detection in undirected graph",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 175,
+        "title": "Cycle detection in directed graph",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 176,
+        "title": "Topological sort",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/topological-sort/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 177,
+        "title": "Bipartite Graph/ Graph Coloring",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/is-graph-bipartite/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 178,
+        "title": "Surrounded Regoins",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/surrounded-regions/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 179,
+        "title": "Shortest Path in Non-Weighted Graph",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 180,
+        "title": "Dijkstra's Algorithm",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 181,
+        "title": "Network Delay",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/network-delay-time/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 182,
+        "title": "Path With Minimum Effort",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/path-with-minimum-effort/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 183,
+        "title": "Swim in Rising Water",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/swim-in-rising-water/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 184,
+        "title": "Bellman ford",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 185,
+        "title": "Cheapest Path in K stops",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 186,
+        "title": "Prim MST",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 187,
+        "title": "Word Ladder",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/word-ladder/",
+        "additional_urls": [],
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "raw_name": "DP (Dynamic Programming)",
+    "name": "DP (Dynamic Programming)",
+    "row": 188,
+    "sub_categories": [],
+    "questions": [
+      {
+        "row": 189,
+        "title": "Episode-02: Fibonacci",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/fibonacci-number/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 190,
+        "title": "Episode 03: Climbing Stairs",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/climbing-stairs/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 191,
+        "title": "Episode 04: House Robber",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/house-robber/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 192,
+        "title": "Episode 05: 0/1 Knapsack",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 193,
+        "title": "Episode 06: tabulation Intro",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": null,
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 194,
+        "title": "Episode 07: 0/1 Knapsack Tabulation",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 195,
+        "title": "Episode 08: Subset sum",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 196,
+        "title": "Episode 09 : Target Sum",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://www.geeksforgeeks.org/problems/target-sum-1626326450/1",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 197,
+        "title": "Episode 10 : LIS",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 198,
+        "title": "Episode 11 : LIS Tabulation",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": null,
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 199,
+        "title": "Episode 12 : LCS",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/longest-common-subsequence/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 200,
+        "title": "Episode 13 : Unique Paths",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/unique-paths/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 201,
+        "title": "Episode 14: Buy Sell Stocks",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 202,
+        "title": "Best Time To Buy And Sell Stock Ii",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 203,
+        "title": "Best Time To Buy And Sell Stock Iii",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 204,
+        "title": "Best Time To Buy And Sell Stock Iv",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 205,
+        "title": "Episode 15: MIn cost to cut stick",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/minimum-cost-to-cut-a-stick/",
+        "additional_urls": [],
+        "notes": null
+      },
+      {
+        "row": 206,
+        "title": "Episode 16: Revision",
+        "subcategory": null,
+        "difficulty": "Medium",
+        "leetcode_url": null,
+        "additional_urls": [],
+        "notes": null
+      }
+    ]
+  }
+]

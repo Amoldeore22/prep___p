@@ -1,0 +1,16 @@
+"use client";
+
+import React, { Suspense } from "react";
+import JobRolesStepView from "@/components/pipeline/JobRolesStepView";
+
+export default function CompanyRolesDynamicPage({
+  params,
+}: {
+  params: { companyId: string };
+}) {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-[#121316] text-white p-8">Loading roles...</div>}>
+      <JobRolesStepView initialCompanyId={params.companyId} />
+    </Suspense>
+  );
+}
