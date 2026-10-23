@@ -9,7 +9,7 @@ const nextConfig = {
     return config;
   },
   async rewrites() {
-    const backendUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+    const backendUrl = process.env.NEXT_PUBLIC_API_URL || "https://preppilot-dcx7.onrender.com";
     return [
       {
         source: "/api/:path*",

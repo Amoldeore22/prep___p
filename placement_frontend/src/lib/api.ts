@@ -3,7 +3,7 @@
  */
 
 export const API_BASE_URL =
-  process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+  process.env.NEXT_PUBLIC_API_URL || "https://preppilot-dcx7.onrender.com";
 
 /**
  * Normalizes an API path to point to the standalone backend
